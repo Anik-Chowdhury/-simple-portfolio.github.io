@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact form submission</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div style="margin-top: 100px;" class="container">
+      <h1>Contact Form</h1>
+<form action="thankyou.html" method="POST">
+        <input type="text" name="Name" placeholder=" Full Name" required><br>
+        <input type="email" name="Email" placeholder=" Email" required><br>
+        <textarea  name="Massage" placeholder=" Massage" required></textarea><br>
+        <input type="hidden" name="_next" value="https://anik-chowdhury.github.io/simple-portfolio.github.io/thankyou/">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+  </body>
+</html>

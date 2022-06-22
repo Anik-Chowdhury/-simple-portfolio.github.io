@@ -1,0 +1,37 @@
+body{
+  background-color: #EAF6F6;
+}
+hr{
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color:grey;
+  border-width: 5px;
+  width:15%;
+}
+h1{
+  color:green;
+}
+h3{
+  color:indianred;
+}
+h4{
+  color:blue;
+}
+.checked {
+  color: orange;
+}
+.container{
+  text-align: center;
+}
+input{
+  width: 300px;
+  height: 30px;
+}
+textarea{
+  width: 300px;
+  height: 200px;
+}
+a {
+color: #A865C9;
+}
